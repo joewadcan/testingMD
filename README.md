@@ -1,7 +1,7 @@
-# testingMD
+# Testing spell check
 
 Plain text to check. 
 
-Spelling should be working. 
+Spelling should be working. Working well ! :smiley: .
 
 Let's trigger a CI Run :rocket: hooray ! 
