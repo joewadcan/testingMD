@@ -1,4 +1,4 @@
-# testingMD
+# Testing
 
 Plain text to check. 
 
