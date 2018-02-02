@@ -1,0 +1,15 @@
+cache: bundler
+language: ruby
+sudo: false
+
+addons:
+    apt:
+        packages:
+            - aspell
+            - aspell-en
+            - aspell-fr
+
+install:
+    - bundle install --jobs=3 --retry=3 --path=${BUNDLE_PATH:-vendor/bundle}
+
+script: spellcheck.sh
