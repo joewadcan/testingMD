@@ -65,11 +65,9 @@ then
     echo -e "$BLUE>> Checking in '$USE_LANGUAGE' too..."
     MISSPELLED=`echo "$MISSPELLED" | aspell --lang=$USE_LANGUAGE --encoding=utf-8 --personal=./.aspell.$USE_LANGUAGE.pws list | sort -u`
 fi
-echo "Echoing1 $MISSPELLED"
-NB_MISSPELLED=`echo "$MISSPELLED" | wc -l`
-echo "Echoing2 $NB_MISSPELLED"
-QQ_MISSPELLED=`echo "$MISSPELLED" | wc -w`
-echo "Echoing3 $QQ_MISSPELLED"
+
+NB_MISSPELLED=`echo "$MISSPELLED" | wc -w`
+
 if [ "$NB_MISSPELLED" -gt 0 ]
 then
     echo -e "$RED>> Words that might be misspelled, please check:$NC"
