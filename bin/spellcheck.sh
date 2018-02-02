@@ -74,9 +74,11 @@ then
     MISSPELLED=`echo "$MISSPELLED" | sed -E ':a;N;$!ba;s/\n/, /g'`
     echo "$MISSPELLED"
     COMMENT="$NB_MISSPELLED words might be misspelled, please check them: $MISSPELLED"
+    exit 1
 else
     COMMENT="No spelling errors, congratulations!"
     echo -e "$GREEN>> $COMMENT $NC"
+    exit 0
 fi
 
-exit 0
+
