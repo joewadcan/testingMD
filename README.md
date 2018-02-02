@@ -1,4 +1,4 @@
-# Testing spellcheck
+# Testing spell check
 
 Plain text to check. 
 
