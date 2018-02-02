@@ -12,4 +12,4 @@ addons:
 script: ./bin/spellcheck.sh
 
 before_script:
-  - chmod +x ./bin/build.sh
+  - chmod +x ./bin/spellcheck.sh
