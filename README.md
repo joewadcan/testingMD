@@ -1,6 +1,6 @@
 # Testing
  
-Plain text to check. ME NO SPEL GUD :poop:
+Plain text to check. ME NO SPELL GOOD :poop:
 
 Spelling should be working. 
 
