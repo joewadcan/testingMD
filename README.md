@@ -1,7 +1,7 @@
 # Testing
  
-Plain text to check. ME NO SPELL GOOD :poop:
+Write anything you want here - our CI service (Travis) will kick off a build.
 
-Spelling should be working. 
+-------------
 
-Let's trigger a nice Run :rocket: hooray ! 
+Excellent
